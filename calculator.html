@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <center><br><br>
+        <div class="heading">My Basic Calculator</div><br><br><br>
+        <form action="">
+        <input class="display" name="result">
+        <article class="main">
+            <div>
+                <input type="button" class="cell" id="black" value = "1" onclick="result.value += '1'">
+                <input type="button" class="cell" id="black" value = "4" onclick="result.value += '4'">
+                <input type="button" class="cell" id="black" value = "7" onclick="result.value += '7'">
+                <input type="button" class="cell" id="black" value = "0" onclick="result.value += '0'">
+            </div>
+            <div>
+                <input type="button" class="cell" id="black" value = "2" onclick="result.value += '2'">
+                <input type="button" class="cell" id="black" value = "5" onclick="result.value += '5'">
+                <input type="button" class="cell" id="black" value = "8" onclick="result.value += '8'">
+                <input type="button" class="cell" id="red" value = "C" onclick="result.value = ' '">
+            </div>
+            <div>
+                <input type="button" class="cell" id="black" value = "3" onclick="result.value += '3'">
+                <input type="button" class="cell" id="black" value = "6" onclick="result.value += '6'">
+                <input type="button" class="cell" id="black" value = "9" onclick="result.value += '9'">
+                <input type="button" class="cell" id="black" value = "=" onclick="result.value = eval(result.value)">
+            </div>
+            <div>
+                <input type="button" class="cell" id="pink" value = "+" onclick="result.value += '+'">
+                <input type="button" class="cell" id="blue" value = "-" onclick="result.value += '-'">
+                <input type="button" class="cell" id="green" value = "*" onclick="result.value += '*'">
+                <input type="button" class="cell" id="purple" value = "/" onclick="result.value += '/'">
+            </div>
+        </article>
+    </form>
+    </center>
+</body>
+</html>

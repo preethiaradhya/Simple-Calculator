@@ -1,0 +1,51 @@
+.main{
+    height: 250px;
+    width: 400px;
+    justify-content: space-between;
+    display: flex;
+}
+.heading{
+    font-size: 60px;
+}
+.cell{
+    height: 40px;
+    width: 90px;
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    height: 60px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: solid;
+    color: white;
+    font-size: 40px;
+}
+#black{
+    background-color: black;
+    color: white;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+#pink{
+    background-color: pink;
+    color: white;
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
+#green{
+    background-color: green;
+    color: white;
+}
+#purple{
+    background-color: purple;
+    color: white;
+}
